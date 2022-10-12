@@ -1,7 +1,6 @@
 ﻿
 
 string[] arrstr = new string[] { "ДА", "СБУДУТСЯ", "МЕЧТЫ", "БИЛЛИ", "БОНСА", "!!!" };
-//string[] arrstr = new string[] { "<", "$$", "МЕЧТЫ", "+", "     ", "! !" };
 int size = arrstr.Length;
 int newsize = 0;
 for (int i = 0; i < size; i++)
@@ -11,9 +10,9 @@ for (int i = 0; i < size; i++)
         newsize++;
     }
 }
-Console.WriteLine(newsize);
+// Console.WriteLine($"КОЛИЧЕСТВО ЭЛЕМЕНТОВ  {newsize}");
 string[] arrstr3 = new string[newsize];
-Console.WriteLine(arrstr3.Length);
+// Console.WriteLine($"РАЗМЕР ПРИНИМАЮЩЕГО МАССИВА  {arrstr3.Length}");
 int count = 0;
 for (int i = 0; i < size; i++)
 {
